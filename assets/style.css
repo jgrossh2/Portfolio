@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    /* background page gray*/
+    background-color: #8c8c8c;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 20px 35px;
+    background-color: var(tertiary-color);        
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: ;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+
