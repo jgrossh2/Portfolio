@@ -62,6 +62,12 @@ header a {
     width: 300px;
     height: 200px;
 }
+.wave img {
+    width: 20%;
+}
+.horiseon img {
+    width: 20%;
+}
 .about p {
     text-align: right;
 }
