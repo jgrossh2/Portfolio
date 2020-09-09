@@ -10,7 +10,22 @@ body {
 }
 header {
     background-color: #404040;
-    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 40px;
+    color: #d9d9d9;
+    font-weight: bold;
+}
+header nav ul li {
+    margin: 50px;
+    display: inline;
+    justify-content: center;
+}
+header a {
+    font-size: 20px;
+    color: #d9d9d9;
 }
 .hero {
     background-image: url("../images/pattern.jpg");
@@ -18,11 +33,24 @@ header {
     position: relative;
 }
 .hero h2 {
-    padding: 100px;
+    padding: 200px;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.run {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.about p {
+    text-align: right;
 }
 .about h2, .work h2, .contact h2 {
     font-size: 38px;
-    padding: 75px;
+    margin: 75px;
 }
 
 
