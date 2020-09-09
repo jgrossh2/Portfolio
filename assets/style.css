@@ -9,19 +9,20 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 header {
-    padding: 20px 35px;        
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url("../images/pattern.jpg");
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
+    background-color: #404040;
     z-index: 9999;
 }
-
+.hero {
+    background-image: url("../images/pattern.jpg");
+    background-size: cover;
+    position: relative;
 }
+.hero h2 {
+    padding: 100px;
+}
+.about h2, .work h2, .contact h2 {
+    font-size: 38px;
+    padding: 75px;
+}
+
 
