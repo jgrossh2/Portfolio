@@ -8,6 +8,7 @@ body {
     background-color: #d9d9d9;
     font-family: Helvetica, Arial, sans-serif;
 }
+/* header styles begin*/
 header {
     background-color: #404040;
     display: flex;
@@ -33,6 +34,8 @@ header a {
     color: #d9d9d9;
     text-decoration: none;
 }
+/* header styles end*/
+/* hero styles begin*/
 .hero {
     background-image: url("../images/pattern.jpg");
     background-size: cover;
@@ -41,6 +44,8 @@ header a {
 .hero h2 {
     padding: 200px;
 }
+/* hero styles end*/
+/*about me section begin*/
 .main {
     display: flex;
     justify-content: space-between;
@@ -55,9 +60,18 @@ header a {
     font-size: 18px;
     line-height: 1.3;
 }
+.about p {
+    text-align: right;
+}
 .photo img {
     width: 20%;
 }
+.about h2, .work h2, .contact h2 {
+    font-size: 38px;
+    margin: 75px;
+}
+/*About me section end*/
+/* My work section styles begin*/
 .run img {
     width: 300px;
     height: 200px;
@@ -68,12 +82,20 @@ header a {
 .horiseon img {
     width: 20%;
 }
-.about p {
-    text-align: right;
+.sun img {
+    width: 20%;
 }
-.about h2, .work h2, .contact h2 {
-    font-size: 38px;
-    margin: 75px;
+.work a {
+    color:black;
+    text-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
 }
+/* My work section styles end*/
+/* contact styles begin*/
 
 
+.contact {
+
+}
+/* contact styles end*/
