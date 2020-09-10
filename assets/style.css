@@ -25,14 +25,14 @@ header nav ul {
     list-style: none;
 }
 header nav ul li {
-    margin: 50px;
     display: inline;
-    justify-content: center;
+    justify-content: ;
 }
 header a {
     font-size: 2 vw;
     color: #d9d9d9;
     text-decoration: none;
+    font-weight: bold;
 }
 /* header styles end*/
 /* hero styles begin*/
@@ -42,7 +42,7 @@ header a {
     position: relative;
 }
 .hero h2 {
-    padding: 200px;
+    padding: 100px;
 }
 /* hero styles end*/
 /*about me section begin*/
@@ -52,21 +52,21 @@ header a {
     justify-content: center;
     position: relative;
 }
+.about h2 {
+    font-style: bold;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
 .about {
-    width:400px;
+    width: 400px;
     height: 200px;
-    margin: auto;
+    margin: 25px 0 0 -200px;
 }
 .photo {
     width: 200px;
     height: 200px;
-    margin: 100px auto;
-}
-#About-Me h2 {
-    font-style: bold;
-    font-size: 50px;
-    margin: auto;
-    font-style: italic;
+    margin: 50px -200px 0 0 ;
 }
 /*About me section end*/
 /* My work section styles begin*/
@@ -87,10 +87,10 @@ header a {
     height: 200px;
 }
 .my-work h2 {
-    padding-top: 50px;
     font-size: 50px;
     text-align: center;
     font-style: italic;
+    margin-top: 50px;
 }
 .work {
     display: grid;
@@ -124,16 +124,40 @@ header a {
 }
 .work a {
     color:black;
-    text-size: 24px;
+    font-size: 24px;
     text-decoration: none;
     font-weight: bold;
 }
 /* My work section styles end*/
 /* contact styles begin*/
-#Contact h2 {
+#Contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.contact h2 {
     font-size: 50px;
     text-align: center;
     font-style: italic;
+    margin: 50px 0 25px 0;
+}
+.stuff {
+    margin: auto;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 50px 100px 0px 100px;
+}
+.stuff a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.stuff label {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 /* contact styles end*/
