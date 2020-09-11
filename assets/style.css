@@ -5,7 +5,7 @@
 }
 body {
     /* background page gray*/
-    background-color: #d9d9d9;
+    background-color: #ccc;
     font-family: Helvetica, Arial, sans-serif;
 }
 /* header styles begin*/
@@ -27,13 +27,13 @@ header nav ul {
 }
 header nav ul li a {
     margin: 0 50px 0 50px;
-    text-align: center;
 }
 header a {
     font-size: 2 vw;
     color: #d9d9d9;
     text-decoration: none;
     font-weight: bold;
+    align-content: center;
 }
 /* header styles end*/
 /* hero styles begin*/
@@ -75,19 +75,11 @@ header a {
 }
 /*About me section end*/
 /* My work section styles begin*/
-.run img {
-    width: 400px;
-    height: 200px;
-}
 .work img:hover {
-    width: 600px;
-    height: 400px;
+    width: 450px;
+    height: 250px;
 }
-.horiseon img {
-    width: 400px;
-    height: 200px;
-}
-.wave img, .sun img {
+.run img, .horiseon img, .wave img, .sun img {
     width: 400px;
     height: 200px;
 }
@@ -105,7 +97,7 @@ header a {
 }
 .work img {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 .grid-item1 {
     display: grid;
@@ -150,8 +142,6 @@ header a {
 .stuff {
     margin: auto;
     display: inline;
-    width: 100px;
-    height: 100px;
     margin: 50px 100px 0px 100px;
 }
 .stuff a {
@@ -167,6 +157,9 @@ header a {
 
 /* contact styles end*/
 /*media query*/
-@media screen and (max-width=980px) {
-
+@media screen and (max-width: 1020px) { /* Large Desktop */ 
+}
+@media screen and (max-width: 780px) { /* tablet */ 
+}
+@media screen and (max-width: 480px) { /* mobile */ 
 }
