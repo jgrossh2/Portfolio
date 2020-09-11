@@ -44,6 +44,10 @@ header a {
 }
 .hero h2 {
     padding: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 0 500px;
+    color: #660033;
 }
 /* hero styles end*/
 /*about me section begin*/
@@ -101,6 +105,7 @@ header a {
 }
 .work img {
     display: grid;
+    grid-gap: 10px;
 }
 .grid-item1 {
     display: grid;
@@ -111,7 +116,6 @@ header a {
     display: grid;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    object-fit: ;
 }
 .grid-item3 {
     display: grid;
