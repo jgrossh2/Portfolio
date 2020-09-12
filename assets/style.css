@@ -25,8 +25,11 @@ header nav ul {
     flex-wrap: wrap;
     list-style: none;
 }
-header nav ul li a {
-    margin-left: 44%;
+header nav ul li {
+    padding-left: 10px;
+}
+header nav ul li:first-child {
+    padding-left: 0;
 }
 header a {
     font-size: 16px;
