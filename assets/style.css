@@ -103,22 +103,39 @@ header a {
     grid-template-rows: repeat(2, 2fr);
     grid-template-columns: repeat(2, 2fr);
     margin: 0 auto; 
-    justify-content: space-around;
-}
+    width: 600px; 
+    height: 400px;
+    grid-gap: 10px;
+} 
 .work img {
     display: grid;
     grid-gap: 5px;
 }
+
+.img-1 {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+}
+.img-2 {
+    background-image: url("../images/horiseon.jpg");
+    background-size: cover;
+}
+.img-3 {
+    background-image: url("../images/sunflower.jpg");
+    background-size: cover;
+}
+.img-4 {
+    background-image: url("../images/wave.jpg");
+    background-size: cover;
+}
 .grid-item {
     display: flex;
-    /* justify-content: center; */
-    object-fit: fill;
 }
 .grid-item1 {
     display: grid;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-}
+}    
 .grid-item2 {
     display: grid;
     grid-row: 1 / 2;
@@ -134,20 +151,19 @@ header a {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
 }
+/* .grid-item1, .grid-item3 {
+    padding-left: 20%;
+} */
 .work a {
-    color:black;
+    color:white;
     font-size: 24px;
     text-decoration: none;
     font-weight: bold;
+    padding-left: 27%;
 }
-.work img:hover {
-    width: 450px;
-    height: 250px;
-}
-.run img, .horiseon img, .wave img, .sun img {
-    width: 400px;
-    height: 200px;
-    object-fit: fill;
+.grid-item a:hover {
+    width: 325px;
+    height: 225px;
 }
 /* My work section styles end*/
 /* contact styles begin*/
@@ -204,10 +220,6 @@ header {
 .photo {
     margin-top: 25px;
 }
-.run img, .horiseon img, .wave img, .sun img {
-    width: 200px;
-    height: 100px;
-}
 .work img:hover {
     width: 250px;
     height: 150px;
@@ -224,18 +236,14 @@ header {
 header {
     padding: 10px;
 }
+header nav ul li a {
+    font-size: 24px;
+}
 .about p {
     font-size: 25px;
 }
 #About-me h2, .my-work h2, .contact h2 {
     padding: 10px;
-}
-.grid-item1, .grid-item3 {
-    justify-content: right;
-    padding-right: 10px;
-}
-.grid-item2, .grid-item4 {
-    justify-content: left ;
 }
 .stuff {
     margin: 20px 20px 0 25px;
