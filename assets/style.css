@@ -111,14 +111,13 @@ header a {
 }
 .grid-item {
     display: flex;
-    justify-content: center;
-    /* object-fit: fill; */
+    /* justify-content: center; */
+    object-fit: fill;
 }
 .grid-item1 {
     display: grid;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    /* object-fit: fill; */
 }
 .grid-item2 {
     display: grid;
