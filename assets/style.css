@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    padding: 10px;
 }
 header h1 {
     font-size: 40px;
