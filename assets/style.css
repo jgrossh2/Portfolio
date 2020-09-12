@@ -1,7 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
 }
 body {
     /* background page gray*/
@@ -27,6 +29,7 @@ header nav ul {
 }
 header nav ul li {
     padding-left: 10px;
+    padding-right: 10px;
 }
 header nav ul li:first-child {
     padding-left: 0;
@@ -42,12 +45,15 @@ header a {
 .hero {
     background-image: url("../images/pattern.jpg");
     background-size: cover;
+    width: 100%;
 }
 .hero h2 {
     padding: 100px;
     font-weight: bold;
     font-size: 30px;
     margin-left: 44%;
+    margin-top: auto;
+    margin-bottom: auto;
     color: #660033;
 }
 /* hero styles end*/
@@ -77,12 +83,11 @@ header a {
     font-size: 24px;
     width: 400px;
     height: 200px;
-    margin: 50px 100px 0 0;
 }
 .photo {
     width: 200px;
     height: 200px;
-    margin: 20px 100px 0 0 ;
+    margin-left: 20%;
 }
 /*About me section end*/
 /* My work section styles begin*/
@@ -146,40 +151,38 @@ header a {
 /* contact styles begin*/
 #Contact {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    /*flex-wrap: wrap;*/
     width: 100%;
-    /* justify-content: center;
-    position: relative; */
 }
 .contact h2 {
     font-size: 40px;
     font-style: italic;
-    margin: 25px 0 10px 0;
-    /* border-bottom: 3px dotted; */
+    margin: 10px 0 10px 0;
 }
 .stuff {
     display: inline;
-    margin: 50px 50px 0 100px;
+    /*margin: auto;*/
 }
 .stuff a {
     font-weight: bold;
     text-decoration: none;
     color: black;
     font-size: 18px;
+    padding: 0 10px 0 10px;
 }
 .stuff label {
     font-weight: bold;
     text-decoration: none;
     color: black;
     font-size: 18px;
+    padding: 0 10px 0 10px;
 }
 
 /* contact styles end*/
 /*media query*/
 @media screen and (max-width: 980px) { /* Large Desktop */
 .header, .hero {
-    width: 100%;
+    /*width: 100%;*/
 }
 .about p {
     margin: 0;
