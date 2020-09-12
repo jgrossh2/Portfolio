@@ -22,6 +22,7 @@ header h1 {
     font-size: 40px;
     color: #d9d9d9;
     font-weight: bold;
+    padding-left: 10px;
 }
 header nav ul {
     display: flex;
@@ -94,6 +95,7 @@ header a {
     text-align: left;
     font-style: italic;
     margin: 0;
+    padding-left: 10px;
 }
 .work {
     display: grid;
@@ -157,10 +159,10 @@ header a {
     font-size: 40px;
     font-style: italic;
     margin: 10px 0 10px 0;
+    padding-left: 10px;
 }
 .stuff {
     display: inline;
-    /*margin: auto;*/
 }
 .stuff a {
     font-weight: bold;
@@ -180,10 +182,6 @@ header a {
 /* contact styles end*/
 /*media query*/
 @media screen and (max-width: 980px) { /* Large Desktop */
-
-.header, .hero {
-    /*width: 100%;*/
-}
 header a {
     font-size: 20px;
 }
@@ -196,7 +194,7 @@ header a {
 }
 
 @media screen and (max-width: 768px) { /* tablet */ 
-header a {
+header {
     padding-right: 10px;
 }
 .about p {
@@ -223,12 +221,14 @@ header a {
 .container {
     padding: 10px;
 }
-header a {
-    font-size: 24px;
-    padding-right: 10px;
+header {
+    padding: 10px;
 }
 .about p {
     font-size: 25px;
+}
+#About-me h2, .my-work h2, .contact h2 {
+    padding: 10px;
 }
 .grid-item1, .grid-item3 {
     justify-content: right;
