@@ -10,7 +10,7 @@ This portfolio was created in order to display the creative work of Joanna Gross
 
 
 # Links
- https://jgrossh2.github.io/Portfolio
+ https://jgrossh2.github.io/Portfolio/
 
 
 # Technologies used
