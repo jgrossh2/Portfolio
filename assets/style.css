@@ -4,6 +4,7 @@
 .container {
     width: 1080px;
     margin: 0 auto;
+    padding: 10px 10px 10px 10px;
 }
 body {
     /* background page gray*/
@@ -146,6 +147,7 @@ header a {
 .run img, .horiseon img, .wave img, .sun img {
     width: 400px;
     height: 200px;
+    object-fit: fill;
 }
 /* My work section styles end*/
 /* contact styles begin*/
@@ -181,6 +183,7 @@ header a {
 /* contact styles end*/
 /*media query*/
 @media screen and (max-width: 980px) { /* Large Desktop */
+
 .header, .hero {
     /*width: 100%;*/
 }
@@ -202,7 +205,10 @@ header a {
 }
 
 @media screen and (max-width: 768px) { /* tablet */ 
-.about p {
+header a {
+    padding-right: 10px;
+}
+    .about p {
     font-size: 20px;
     margin-top: 25px;
 }
@@ -223,8 +229,12 @@ header a {
 }
 
 @media screen and (max-width: 575px) { /* mobile */ 
+.container {
+    padding: 10px;
+}
 header a {
     font-size: 24px;
+    padding-right: 10px;
 }
 .about p {
     font-size: 25px;
