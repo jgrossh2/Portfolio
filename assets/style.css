@@ -184,26 +184,30 @@ header a {
 .header, .hero {
     /*width: 100%;*/
 }
-.about p {
-    margin: 0;
+header a {
+    font-size: 20px;
+}
+/*.about p {
+    margin:0 auto;
 }
 .photo {
-    margin: 0;
-}
+    margin: 0 auto;
+} */
 .stuff a, .stuff label {
     font-size: 24px;
 }
  .stuff { 
     margin: 25px 25px 0 60px;
 } 
+}
 
 @media screen and (max-width: 768px) { /* tablet */ 
 .about p {
-    font-size: 18px;
-    margin: 0 0 0 0;
+    font-size: 20px;
+    margin-top: 25px;
 }
 .photo {
-    margin: 0 0 0 0;
+    margin-top: 25px;
 }
 .run img, .horiseon img, .wave img, .sun img {
     width: 200px;
@@ -213,20 +217,22 @@ header a {
     width: 250px;
     height: 150px;
 }
-.stuff {
-    margin: 25px 25px 0 50px;
-}
 .stuff a, .stuff label {
-    font-size: 12px;
+    font-size: 20px;
 }
 }
 
 @media screen and (max-width: 575px) { /* mobile */ 
-.header
-    .header h1 { 
+header a {
     font-size: 24px;
+}
+.about p {
+    font-size: 25px;
 }
 .stuff {
     margin: 20px 20px 0 25px;
+}
+.stuff a, .stuff label {
+    font-size: 28px;
 }
 }
