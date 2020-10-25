@@ -121,7 +121,7 @@ header a {
 }
 
 .img-1 {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/word-generator.png");
     background-size: cover;
 }
 .img-2 {
@@ -133,7 +133,7 @@ header a {
     background-size: cover;
 }
 .img-4 {
-    background-image: url("../images/wave.jpg");
+    background-image: url("../images/work-scheduler.png");
     background-size: cover;
 }
 .grid-item {
